@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-text-primary antialiased bg-bg-base;
+  }
+}
+
+@layer components {
+  .container-narrow {
+    @apply max-w-[1200px] mx-auto px-4 min-[480px]:px-5 sm:px-6 lg:px-8;
+  }
+
+  .section-spacing {
+    @apply py-8 sm:py-12 md:py-16 lg:py-20;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-button font-medium
+           transition-all duration-300 ease-in-out
+           focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn px-5 py-3 sm:px-6 bg-primary text-white shadow-soft
+           hover:-translate-y-0.5 hover:shadow-soft-lg;
+  }
+
+  .btn-secondary {
+    @apply btn px-5 py-3 sm:px-6 border-2 border-primary text-primary
+           hover:bg-primary/10 hover:-translate-y-0.5;
+  }
+
+  .btn-dark {
+    @apply btn px-5 py-3 sm:px-6 bg-dark-accent text-white
+           hover:opacity-90 hover:-translate-y-0.5;
+  }
+
+  .input-base {
+    @apply rounded-lg border border-gray-200 bg-white px-3 py-2 text-text-primary
+           focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent
+           disabled:bg-gray-50 disabled:text-gray-500;
+  }
+
+  .card {
+    @apply rounded-card bg-white p-4 sm:p-6 shadow-soft
+           transition-all duration-300 ease-in-out;
+  }
+
+  .card-hover {
+    @apply card hover:-translate-y-2 hover:shadow-soft-lg;
+  }
+
+  .ticket-card {
+    @apply relative rounded-card bg-white p-4 sm:p-5 shadow-soft
+           border border-gray-100 border-l-4 border-l-primary
+           transition-all duration-300 ease-in-out
+           hover:-translate-y-1 hover:shadow-soft-lg hover:border-l-primary;
+  }
+
+  .nav-link {
+    @apply text-text-primary hover:text-primary transition-colors duration-200;
+  }
+
+  .markdown-content {
+    @apply text-text-secondary leading-relaxed;
+  }
+  .markdown-content p { @apply mb-2; }
+  .markdown-content p:last-child { @apply mb-0; }
+  .markdown-content ul { @apply list-disc pl-5 mb-2 space-y-0.5; }
+  .markdown-content ol { @apply list-decimal pl-5 mb-2 space-y-0.5; }
+  .markdown-content li { @apply mb-0; }
+  .markdown-content code { @apply bg-bg-base px-1.5 py-0.5 rounded text-sm font-mono break-all sm:break-normal; }
+  .markdown-content pre { @apply bg-bg-base p-3 rounded-lg mb-2 max-w-full min-w-0 overflow-x-auto; }
+  .markdown-content pre code { @apply bg-transparent p-0 whitespace-pre; }
+  .markdown-content strong { @apply font-semibold text-text-primary; }
+  .markdown-content a { @apply text-primary hover:underline; }
+}

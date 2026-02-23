@@ -1,0 +1,118 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Seed MongoDB with data from client/src/data JSON files.
+ * Backend generates all ids (_id); relations use ObjectIds.
+ * Run from server folder: npm run seed
+ */
+const fs = __importStar(require("fs"));
+const path = __importStar(require("path"));
+const dotenv_1 = __importDefault(require("dotenv"));
+const mongoose_1 = __importDefault(require("mongoose"));
+const Category_1 = require("../models/Category");
+const Group_1 = require("../models/Group");
+const Topic_1 = require("../models/Topic");
+const Question_1 = require("../models/Question");
+dotenv_1.default.config({ path: path.join(__dirname, '..', '..', '.env') });
+const DATA_DIR = path.join(__dirname, '..', '..', '..', 'client', 'src', 'data');
+function loadJson(filename) {
+    const filePath = path.join(DATA_DIR, filename);
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`Data file not found: ${filePath}`);
+    }
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    return JSON.parse(raw);
+}
+async function seed() {
+    const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/interviewprep';
+    await mongoose_1.default.connect(uri);
+    console.log('MongoDB connected');
+    const categoriesJson = loadJson('categories.json');
+    const groupsJson = loadJson('groups.json');
+    const topicsJson = loadJson('topics.json');
+    const questionsJson = loadJson('questions.json');
+    // Drop collections so old indexes (e.g. id_1) are removed; then insert recreates with current schema
+    await Category_1.Category.collection.drop().catch(() => { });
+    await Group_1.Group.collection.drop().catch(() => { });
+    await Topic_1.Topic.collection.drop().catch(() => { });
+    await Question_1.Question.collection.drop().catch(() => { });
+    // Insert categories (no id – backend generates _id)
+    const categoryDocs = await Category_1.Category.insertMany(categoriesJson.map((c) => ({ name: c.name, title: c.title, icon: c.icon })));
+    const categoryIdMap = new Map();
+    categoryDocs.forEach((doc, i) => {
+        categoryIdMap.set(categoriesJson[i].id, doc._id);
+    });
+    // Insert groups (categoryId = new ObjectId from map)
+    const groupDocs = await Group_1.Group.insertMany(groupsJson.map((g) => ({
+        categoryId: categoryIdMap.get(g.categoryId),
+        name: g.name,
+        title: g.title,
+        icon: g.icon,
+    })));
+    const groupIdMap = new Map();
+    groupDocs.forEach((doc, i) => {
+        groupIdMap.set(groupsJson[i].id, doc._id);
+    });
+    // Insert topics
+    const topicDocs = await Topic_1.Topic.insertMany(topicsJson.map((t) => ({
+        groupId: groupIdMap.get(t.groupId),
+        categoryId: categoryIdMap.get(t.categoryId),
+        name: t.name,
+        title: t.title,
+    })));
+    const topicIdMap = new Map();
+    topicDocs.forEach((doc, i) => {
+        topicIdMap.set(topicsJson[i].id, doc._id);
+    });
+    // Insert questions
+    await Question_1.Question.insertMany(questionsJson.map((q) => ({
+        categoryId: categoryIdMap.get(q.categoryId),
+        groupId: groupIdMap.get(q.groupId),
+        topicId: topicIdMap.get(q.topicId),
+        question: q.question,
+        answer: q.answer,
+    })));
+    console.log(`Seeded: ${categoriesJson.length} categories, ${groupsJson.length} groups, ${topicsJson.length} topics, ${questionsJson.length} questions (ids generated by backend)`);
+    await mongoose_1.default.disconnect();
+    process.exit(0);
+}
+seed().catch((err) => {
+    console.error('Seed failed:', err);
+    process.exit(1);
+});

@@ -5,6 +5,7 @@ function extractEnv(variable: string, defaultValue = ''): string {
 }
 
 export const constant = {
+  NODE_ENV: extractEnv('NODE_ENV', 'development'),
   MONGO_USER: extractEnv('MONGO_USER'),
   MONGO_PASSWORD: extractEnv('MONGO_PASSWORD'),
   MONGO_DATABASE: extractEnv('MONGO_DATABASE', 'interviewprep'),

@@ -8,7 +8,6 @@ export function buildAtlasMongoUri(): string {
 }
 
 export default {
-  PORT: 8080,
   MONGODB_URI: buildAtlasMongoUri(),
   MONGODB_USE_PUBLIC_DNS: true,
   MONGODB_DNS_SERVERS: '8.8.8.8,1.1.1.1',

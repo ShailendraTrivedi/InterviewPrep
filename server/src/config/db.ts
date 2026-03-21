@@ -3,7 +3,7 @@ import dns from 'node:dns';
 import mongoose from 'mongoose';
 
 export function environmentName(): 'Production' | 'Development' {
-  return process.env.NODE_ENV === 'production' ? 'Production' : 'Development';
+  return config.env.NODE_ENV === 'production' ? 'Production' : 'Development';
 }
 
 export function mongoKind(uri: string): 'Atlas' | 'Local' | 'Remote' {
@@ -32,6 +32,10 @@ export async function connectDB(): Promise<void> {
   applyMongoSrvDns(uri);
   try {
     await mongoose.connect(uri);
+    const name = mongoose.connection.db?.databaseName;
+    if (name) {
+      console.log(`MongoDB database: ${name}`);
+    }
   } catch (err) {
     console.error('MongoDB connection failed.');
     process.exit(1);

@@ -1,10 +1,11 @@
+import { API_BASE_URL } from '../../envVariable';
+
 /**
- * Backend API service for content. Base URL from VITE_API_URL or default localhost:5000.
+ * Backend API service for content. Base URL from {@link API_BASE_URL}.
  */
-const BASE = (import.meta as unknown as { env?: { VITE_API_URL?: string } }).env?.VITE_API_URL ?? 'http://localhost:5000';
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, {
+  const res = await fetch(`${API_BASE_URL}${path}`, {
     headers: { 'Content-Type': 'application/json', ...options?.headers },
     ...options,
   });

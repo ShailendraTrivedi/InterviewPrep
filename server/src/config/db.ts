@@ -32,10 +32,6 @@ export async function connectDB(): Promise<void> {
   applyMongoSrvDns(uri);
   try {
     await mongoose.connect(uri);
-    const name = mongoose.connection.db?.databaseName;
-    if (name) {
-      console.log(`MongoDB database: ${name}`);
-    }
   } catch (err) {
     console.error('MongoDB connection failed.');
     process.exit(1);

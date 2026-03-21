@@ -188,6 +188,8 @@ Copy `.env.example` to `.env` and set:
 - `PORT` (default `5000`)
 - `MONGODB_URI` (e.g. `mongodb://localhost:27017/interviewprep` or Atlas URI)
 
+**Atlas / `querySrv ECONNREFUSED`:** The `mongodb+srv://` URI performs a DNS SRV lookup. If that fails (firewall, VPN, DNS, some corporate networks), use Atlas **Connect → Drivers → Standard connection string** (`mongodb://…`) instead, or use a local MongoDB URI for development.
+
 MongoDB must be running. Seed once:
 
 ```bash

@@ -9,7 +9,11 @@ import { globalExceptionHandler } from './exception/globalExceptionHandler';
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: '*',
+  }),
+);
 app.use(express.json());
 
 app.get('/api/health', (_req, res) => {

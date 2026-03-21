@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
+import { MarkdownBody } from '../components/MarkdownBody';
 import { useDispatch } from 'react-redux';
 import { fetchTopicPage, useAppSelector } from '../redux';
 import { contentService } from '../redux/service/contentService';
@@ -152,7 +152,7 @@ function QuestionCard({
           {open ? '−' : '+'}
         </span>
         <div className="markdown-content font-semibold text-text-primary text-sm sm:text-base flex-1 min-w-0">
-          <ReactMarkdown>{question}</ReactMarkdown>
+          <MarkdownBody>{question}</MarkdownBody>
         </div>
         <Link
           to={`/update-question/${questionId}`}
@@ -193,7 +193,7 @@ function QuestionCard({
       </button>
       {open && (
         <div className="border-t border-gray-100 bg-gray-50/40 px-4 sm:px-5 py-4 markdown-content text-sm sm:text-base text-text-secondary max-w-full min-w-0">
-          <ReactMarkdown>{answer}</ReactMarkdown>
+          <MarkdownBody>{answer}</MarkdownBody>
           {!isViewed ? (
             <button
               type="button"

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
+import { MarkdownBody } from '../components/MarkdownBody';
 import { contentService } from '../redux/service/contentService';
 import type { CategoryResponse, GroupResponse, TopicResponse } from '../redux/service/contentService';
 
@@ -246,7 +246,7 @@ export function UpdateQuestionPage() {
                 aria-live="polite"
               >
                 {question.trim() ? (
-                  <ReactMarkdown>{question}</ReactMarkdown>
+                  <MarkdownBody>{question}</MarkdownBody>
                 ) : (
                   <p className="text-text-secondary italic">Nothing to preview yet. Switch to Code to write.</p>
                 )}
@@ -300,7 +300,7 @@ export function UpdateQuestionPage() {
                 aria-live="polite"
               >
                 {answer.trim() ? (
-                  <ReactMarkdown>{answer}</ReactMarkdown>
+                  <MarkdownBody>{answer}</MarkdownBody>
                 ) : (
                   <p className="text-text-secondary italic">Nothing to preview yet. Switch to Code to write.</p>
                 )}

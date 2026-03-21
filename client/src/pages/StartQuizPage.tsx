@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
+import { MarkdownBody } from '../components/MarkdownBody';
 import { contentService } from '../redux/service/contentService';
 import type { TopicResponse, QuestionResponse } from '../redux/service/contentService';
 
@@ -252,7 +252,7 @@ export function StartQuizPage() {
 
         <div className="card">
           <div className="markdown-content text-text-primary font-medium mb-4">
-            <ReactMarkdown>{question.question}</ReactMarkdown>
+            <MarkdownBody>{question.question}</MarkdownBody>
           </div>
 
           {!answerRevealed ? (
@@ -265,7 +265,7 @@ export function StartQuizPage() {
             </button>
           ) : (
             <div className="border-t border-gray-100 pt-4 mt-2 markdown-content text-text-secondary text-sm sm:text-base">
-              <ReactMarkdown>{question.answer}</ReactMarkdown>
+              <MarkdownBody>{question.answer}</MarkdownBody>
             </div>
           )}
         </div>

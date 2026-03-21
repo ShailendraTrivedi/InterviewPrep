@@ -1,0 +1,1652 @@
+[{
+  "_id": {
+    "$oid": "6999a6316fe327011137b855"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "javascript",
+  "title": "JavaScript",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b856"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "typescript",
+  "title": "TypeScript",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b857"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "python",
+  "title": "Python",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b858"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "java",
+  "title": "Java",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b859"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "cplusplus",
+  "title": "C++",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b85a"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "csharp",
+  "title": "C#",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b85b"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "go-golang",
+  "title": "Go (Golang)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b85c"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "rust",
+  "title": "Rust",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b85d"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "php",
+  "title": "PHP",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b85e"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "ruby",
+  "title": "Ruby",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b85f"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "kotlin",
+  "title": "Kotlin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b860"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b844"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "swift",
+  "title": "Swift",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b861"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "html5",
+  "title": "HTML5",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b862"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "css3",
+  "title": "CSS3",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b863"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "sass-scss",
+  "title": "Sass / SCSS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b864"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "tailwind-css",
+  "title": "Tailwind CSS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b865"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "bootstrap",
+  "title": "Bootstrap",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b866"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "reactjs",
+  "title": "React.js",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b867"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "nextjs",
+  "title": "Next.js",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b868"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "vuejs",
+  "title": "Vue.js",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b869"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b845"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "angular",
+  "title": "Angular",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b86a"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "nodejs",
+  "title": "Node.js",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b86b"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "expressjs",
+  "title": "Express.js",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b86c"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "nestjs",
+  "title": "NestJS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b86d"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "django",
+  "title": "Django",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b86e"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "flask",
+  "title": "Flask",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b86f"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "fastapi",
+  "title": "FastAPI",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b870"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "spring-boot",
+  "title": "Spring Boot",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b871"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "net-core",
+  "title": ".NET Core",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b872"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "laravel",
+  "title": "Laravel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b873"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b846"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "ruby-on-rails",
+  "title": "Ruby on Rails",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b874"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b847"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "mysql",
+  "title": "MySQL",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b875"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b847"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "postgresql",
+  "title": "PostgreSQL",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b876"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b847"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "mongodb",
+  "title": "MongoDB",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b877"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b847"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "redis",
+  "title": "Redis",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b878"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b847"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "firebase",
+  "title": "Firebase",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b879"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b847"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "sqlite",
+  "title": "SQLite",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b87a"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b847"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "elasticsearch",
+  "title": "Elasticsearch",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b87b"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b848"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "jwt",
+  "title": "JWT",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b87c"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b848"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "oauth-2",
+  "title": "OAuth 2.0",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b87d"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b848"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "session-based-authentication",
+  "title": "Session-Based Authentication",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b87e"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b848"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "rbac",
+  "title": "Role-Based Access Control (RBAC)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b87f"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b848"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "https-ssl",
+  "title": "HTTPS / SSL",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b880"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b848"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "bcrypt",
+  "title": "bcrypt",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b881"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b849"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "react-native",
+  "title": "React Native",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b882"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b849"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "flutter",
+  "title": "Flutter",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b883"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b849"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "android-development",
+  "title": "Android Development",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b884"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b849"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "ios-development",
+  "title": "iOS Development",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b885"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84a"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "unit-testing",
+  "title": "Unit Testing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b886"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84a"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "integration-testing",
+  "title": "Integration Testing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b887"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84a"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "e2e-testing",
+  "title": "End-to-End Testing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b888"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84a"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "jest",
+  "title": "Jest",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b889"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84a"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "mocha",
+  "title": "Mocha",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b88a"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84a"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "cypress",
+  "title": "Cypress",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b88b"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84a"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "selenium",
+  "title": "Selenium",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b88c"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "git",
+  "title": "Git",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b88d"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "github",
+  "title": "GitHub",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b88e"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "docker",
+  "title": "Docker",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b88f"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "kubernetes",
+  "title": "Kubernetes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b890"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "cicd-pipelines",
+  "title": "CI/CD Pipelines",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b891"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "aws",
+  "title": "AWS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b892"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "azure",
+  "title": "Azure",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b893"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "gcp",
+  "title": "Google Cloud Platform (GCP)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b894"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84b"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b840"
+  },
+  "name": "linux",
+  "title": "Linux",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b895"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "arrays",
+  "title": "Arrays",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b896"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "strings",
+  "title": "Strings",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b897"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "linked-lists",
+  "title": "Linked Lists",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b898"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "stacks",
+  "title": "Stacks",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b899"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "queues",
+  "title": "Queues",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b89a"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "hash-tables",
+  "title": "Hash Tables",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b89b"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "trees",
+  "title": "Trees",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b89c"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "heaps",
+  "title": "Heaps",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b89d"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "graphs",
+  "title": "Graphs",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b89e"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84c"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "tries",
+  "title": "Tries",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b89f"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "sorting-algorithms",
+  "title": "Sorting Algorithms",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a0"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "searching-algorithms",
+  "title": "Searching Algorithms",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a1"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "two-pointer",
+  "title": "Two Pointer Technique",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a2"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "sliding-window",
+  "title": "Sliding Window",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a3"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "recursion",
+  "title": "Recursion",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a4"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "backtracking",
+  "title": "Backtracking",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a5"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "greedy-algorithms",
+  "title": "Greedy Algorithms",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a6"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "divide-conquer",
+  "title": "Divide & Conquer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a7"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "dynamic-programming",
+  "title": "Dynamic Programming",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a8"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "graph-traversal",
+  "title": "Graph Traversal (BFS, DFS)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8a9"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84d"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "shortest-path",
+  "title": "Shortest Path Algorithms",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8aa"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84e"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "big-o-notation",
+  "title": "Big-O Notation",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8ab"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84e"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "time-complexity",
+  "title": "Time Complexity",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8ac"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84e"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "space-complexity",
+  "title": "Space Complexity",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8ad"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84e"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b841"
+  },
+  "name": "amortized-analysis",
+  "title": "Amortized Analysis",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8ae"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84f"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "system-architecture-patterns",
+  "title": "System Architecture Patterns",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8af"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84f"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "monolithic-architecture",
+  "title": "Monolithic Architecture",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b0"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84f"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "microservices-architecture",
+  "title": "Microservices Architecture",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b1"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84f"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "api-gateway",
+  "title": "API Gateway",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b2"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84f"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "load-balancing",
+  "title": "Load Balancing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b3"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84f"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "cdn",
+  "title": "Content Delivery Network (CDN)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b4"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b84f"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "reverse-proxy",
+  "title": "Reverse Proxy",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b5"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b850"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "object-oriented-design",
+  "title": "Object-Oriented Design",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b6"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b850"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "solid-principles",
+  "title": "SOLID Principles",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b7"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b850"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "design-patterns",
+  "title": "Design Patterns",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b8"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b850"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "uml-diagrams",
+  "title": "UML Diagrams",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8b9"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b850"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "database-schema-modeling",
+  "title": "Database Schema Modeling",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8ba"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b851"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "horizontal-scaling",
+  "title": "Horizontal Scaling",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8bb"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b851"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "vertical-scaling",
+  "title": "Vertical Scaling",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8bc"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b851"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "caching-strategies",
+  "title": "Caching Strategies",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8bd"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b851"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "database-indexing",
+  "title": "Database Indexing",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8be"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b851"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "database-sharding",
+  "title": "Database Sharding",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8bf"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b851"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "replication",
+  "title": "Replication",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c0"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b851"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "rate-limiting",
+  "title": "Rate Limiting",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c1"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b852"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "cap-theorem",
+  "title": "CAP Theorem",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c2"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b852"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "consistency-models",
+  "title": "Consistency Models",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c3"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b852"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "distributed-consensus",
+  "title": "Distributed Consensus",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c4"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b852"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "distributed-locking",
+  "title": "Distributed Locking",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c5"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b852"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "event-driven-systems",
+  "title": "Event-Driven Systems",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c6"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b853"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "apache-kafka",
+  "title": "Apache Kafka",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c7"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b853"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "rabbitmq",
+  "title": "RabbitMQ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c8"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b853"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "activemq",
+  "title": "ActiveMQ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8c9"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b853"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "publish-subscribe",
+  "title": "Publish–Subscribe Model",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6999a6316fe327011137b8ca"
+  },
+  "groupId": {
+    "$oid": "6999a6316fe327011137b853"
+  },
+  "categoryId": {
+    "$oid": "6999a6316fe327011137b842"
+  },
+  "name": "message-queues",
+  "title": "Message Queues",
+  "__v": 0
+}]

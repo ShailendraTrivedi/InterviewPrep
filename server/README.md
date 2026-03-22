@@ -168,9 +168,7 @@ server/
 │   ├── util/
 │   │   └── toResponse.ts      # Lean doc → API shape (id, string refs)
 │   └── exception/
-│       └── globalExceptionHandler.tsx   # Central error handler
-├── scripts/
-│   └── seed.ts                # Seed DB from JSON
+│       └── globalExceptionHandler.ts    # Central error handler
 └── README.md                  # This file
 ```
 
@@ -190,15 +188,10 @@ Copy `.env.example` to `.env` and set:
 
 **Atlas / `querySrv ECONNREFUSED`:** The `mongodb+srv://` URI performs a DNS SRV lookup. If that fails (firewall, VPN, DNS, some corporate networks), use Atlas **Connect → Drivers → Standard connection string** (`mongodb://…`) instead, or use a local MongoDB URI for development.
 
-MongoDB must be running. Seed once:
-
-```bash
-npm run seed
-```
+MongoDB must be running with your collections and documents available to the API.
 
 ## Scripts
 
 - `npm run dev` — Start with hot reload (ts-node-dev)
 - `npm run build` — Compile TypeScript to `dist/`
 - `npm start` — Run `dist/index.js`
-- `npm run seed` — Seed database from `scripts/seed.ts`

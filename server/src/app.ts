@@ -6,6 +6,7 @@ import topicController from './controller/topicController';
 import questionController from './controller/questionController';
 import pageController from './controller/pageController';
 import { globalExceptionHandler } from './exception/globalExceptionHandler';
+import { sendLandingPage, sendHtmlNotFound } from './landingPage';
 
 const app = express();
 
@@ -16,6 +17,8 @@ app.use(
 );
 app.use(express.json());
 
+app.get('/', sendLandingPage);
+
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', message: 'InterviewPrep API' });
 });
@@ -25,6 +28,14 @@ app.use('/api/groups', groupController);
 app.use('/api/topics', topicController);
 app.use('/api/questions', questionController);
 app.use('/api/page', pageController);
+
+app.use((req, res) => {
+  if (req.path.startsWith('/api')) {
+    res.status(404).json({ error: 'Not found' });
+    return;
+  }
+  sendHtmlNotFound(req, res);
+});
 
 app.use(globalExceptionHandler);
 

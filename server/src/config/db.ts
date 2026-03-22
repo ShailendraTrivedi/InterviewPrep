@@ -28,12 +28,16 @@ export function applyMongoSrvDns(uri: string): void {
 }
 
 export async function connectDB(): Promise<void> {
+  if (mongoose.connection.readyState === 1) return;
+
   const uri = config.env.MONGODB_URI;
   applyMongoSrvDns(uri);
   try {
     await mongoose.connect(uri);
+    const name = mongoose.connection.db?.databaseName;
+    if (name) console.log(`MongoDB database: ${name}`);
   } catch (err) {
     console.error('MongoDB connection failed.');
-    process.exit(1);
+    throw err;
   }
 }

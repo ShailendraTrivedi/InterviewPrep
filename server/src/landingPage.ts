@@ -3,6 +3,7 @@ import path from 'path';
 import { marked } from 'marked';
 import { Request, Response } from 'express';
 
+/** GFM tables etc. Pinned to marked@4.x so CommonJS `require` works on Vercel (marked v9+ is ESM-only → ERR_REQUIRE_ESM). */
 marked.setOptions({ gfm: true });
 
 function readmePath(): string {
@@ -29,10 +30,10 @@ function getReadmeBodyHtml(): string {
     }
     const md = fs.readFileSync(p, 'utf8');
     cachedMtime = stat.mtimeMs;
-    cachedBodyHtml = marked.parse(md, { async: false }) as string;
+    cachedBodyHtml = marked.parse(md) as string;
     return cachedBodyHtml;
   } catch {
-    return marked.parse(FALLBACK_README, { async: false }) as string;
+    return marked.parse(FALLBACK_README) as string;
   }
 }
 
